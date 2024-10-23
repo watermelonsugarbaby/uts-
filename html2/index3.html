@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>makanan</title>
+	<style>
+		/* Add some basic styling to our gallery */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2; /* tambahkan warna latar belakang */
+		}
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px; /* tambahkan padding untuk membuat galeri lebih luas */
+		}
+		.gallery .container {
+			background-color: #fff; /* tambahkan warna latar belakang untuk container */
+			padding: 11px;
+			margin: 11px;
+			border: 1px solid #ccc;
+			border-radius: 11px; /* tambahkan radius untuk membuat container lebih bulat */
+			box-shadow: 0 0 11px rgba(0, 0, 0, 0.3); /* tambahkan bayangan untuk membuat container lebih menarik */
+		}
+		.gallery img {
+			width: 250px; /* perbesar ukuran gambar */
+			height: 250px;
+			margin: 10px;
+			border-radius: 11px; /* tambahkan radius untuk membuat gambar lebih bulat */
+			object-fit: cover; /* membuat gambar lebih cantik */
+		}
+		.gallery .caption {
+			font-size: 18px;
+			color: #333;
+			padding: 11px;
+			text-align: center;
+			font-weight: bold; /* membuat teks lebih tebal */
+		}
+		.gallery img:hover {
+			transform: scale(1.1); /* tambahkan efek zoom saat gambar dihover */
+			box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+		}
+		.header {
+			background-color:#536878; /* tambahkan warna latar belakang untuk header */
+			color: #fff; /* tambahkan warna teks untuk header */
+			padding: 25px;
+			text-align: center;
+			font-size: 24px; /* membuat teks lebih besar */
+			font-weight: bold; /* membuat teks lebih tebal */
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>I like food </h1>
+	</div>
+	<div class="gallery">
+		<!-- Add your photos here -->
+		<div class="container">
+			<img src="/img/IMG-20240112-WA0025.jpg" alt="Photo 1">
+			<p class="caption">cromboloni</p>
+		</div>
+		<div class="container">
+			<img src="/img/IMG-20240819-WA0086.jpg" alt="Photo 2">
+			<p class="caption">kopi</p>
+		</div>
+        <div class="container">
+			<img src="/img/IMG-20240822-WA0047.jpg" alt="Photo 2">
+			<p class="caption">sate taichan</p>
+		</div>
+        <div class="container">
+			<img src="/img/Risol mayo.jpeg" alt="Photo 2">
+			<p class="caption">Risol mayo</p>
+		</div>
+		<div class="container">
+			<img src="/img/Mixue Boba Sundae.jpeg" alt="Photo 3">
+			<p class="caption">Mixue Boba Sundae</p>
+		</div>
+        <div class="container">
+			<img src="/img/download (20).jpeg" alt="Photo 2">
+			<p class="caption">richeese</p>
+		</div>
+		<!-- Add more photos as needed -->
+	</div>
+</body>
+</html>

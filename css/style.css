@@ -1,0 +1,147 @@
+body{
+	font-family: 'Lucida Bright', monospace;
+}/*Mengatur font dasar halaman menggunakan font monospace 'IBM Plex Mono*/
+body, ul{
+	margin: 0;
+	padding:0;
+}/*Menghapus margin dan padding default untuk elemen body dan ul, sehingga tampilan lebih konsisten*/
+
+h1,h2, .skill-list {
+	font-family: 'Prata', serif;
+}/*Mengatur font untuk elemen h1, h2, dan kelas skill-list Inknut Antiqua*/
+
+img{
+	/*this limit width image*/
+	max-width: 60%;
+}/*Membatasi lebar gambar maksimum menjadi 75% dari elemen induknya, agar gambar tidak terlalu besar.*/
+
+nav{
+	background-color: #dcdcdc ;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}/*Mengatur latar belakang navigasi dengan warna tertentu, menjadikannya tetap terlihat di 
+bagian atas saat scroll (fixed), dan memastikan navigasi menutupi lebar halaman.*/
+
+header{
+	top:70px;
+	position: relative;
+	margin-bottom:  220px;
+	background-image: url('../img/Biru\ Krem\ Aesthetic\ Scrapbook\ Tugas\ Presentasi\ \(1\).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -140px; 
+}/*Mengatur header dengan gambar latar belakang, mengatur posisinya dan margin di bawahnya untuk memberi jarak.*/
+
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+	padding:0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}/*Menampilkan item navigasi secara horizontal, memberi jarak antar item, 
+dan mengubah teks menjadi huruf kapital dengan spasi antar huruf.*/
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}/*Mengatur posisi daftar navigasi di tengah dengan padding di sekitar elemen*/
+
+h1{
+	font-size: 68px;
+	line-height: 70%;
+}
+h2{
+	font-size: 30px;
+	line-height: 130%;
+}
+h1, h2{
+	font-weight: normal;
+}/*Mengatur ukuran font dan tinggi garis untuk judul h1 dan h2. Menghilangkan ketebalan font dengan font-weight: normal.*/
+
+p{
+	line-height: 150%;
+}/*Mengatur tinggi garis untuk elemen paragraf agar teks lebih mudah dibaca.*/
+
+ul li{
+	list-style: none;
+	margin: 10px 0;
+}/*Menghapus bullet dari item daftar (li) dan memberikan jarak vertikal antar item*/
+
+.button{
+	border: 1px solid black;
+	font-size: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	margin-top:40px;
+	display: inline-block;
+	transition: background 0.5s ease-in-out;
+}
+.button:hover{
+	background:#800020 ;
+	color: white; 
+}
+
+figcaption{
+	font-size: 10px;
+	margin-top: 10px;
+}/*Mengatur ukuran font untuk caption gambar dengan margin atas.*/
+
+.intro-img{
+	box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+	margin-top: 30px;
+}/*Memberikan efek bayangan pada gambar dengan margin atas.*/
+
+.skill-list {
+	text-align: center;
+	font-size: 15px;
+	line-height: 100%;
+	margin-bottom : 100px;
+}/*Mengatur tampilan daftar keterampilan dengan teks yang terpusat dan margin bawah.*/
+
+.project{
+	margin: 20px 0; 
+	padding: 15px;
+}/*Memberikan jarak vertikal dan padding di dalam elemen proyek.*/
+
+.blue{
+	background-color: #dcdcdc ;
+}/*Kelas tambahan untuk memberikan warna latar belakang.*/
+
+.project .button{
+	margin-top: 10px;
+}/*Mengatur jarak atas untuk tombol di dalam elemen proyek.*/
+
+footer{
+	text-align: center;
+	margin:100px;
+}/*Menetapkan footer dengan teks yang terpusat dan margin di sekelilingnya.*/
+
+footer h2{
+	font-size: 50px;
+	margin-bottom:100px; 
+}/*Mengatur ukuran font untuk judul di footer dan memberikan jarak bawah yang besar.*/
+
+.right-alignment{
+	text-align: right;
+}/*Kelas untuk meratakan teks ke kanan.*/
+
+li.empty{
+	width: 90px;
+	border-top: 1px solid black;
+	top:-5px;
+	position: relative; 
+}/*Mengatur elemen daftar kosong dengan lebar tertentu dan garis atas.*/
+
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+}/*Mengatur tampilan tautan di dalam navigasi tanpa garis bawah, dan memberikan efek garis bawah saat di-hover.*/
