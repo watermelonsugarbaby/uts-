@@ -1,5 +1,12 @@
+@font-face{
+	font-family: "Amu";
+	src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+
+
 body{
-	font-family: 'Lucida Bright', monospace;
+	font-family: 'Amu';
 }/*Mengatur font dasar halaman menggunakan font monospace 'IBM Plex Mono*/
 body, ul{
 	margin: 0;
@@ -7,7 +14,7 @@ body, ul{
 }/*Menghapus margin dan padding default untuk elemen body dan ul, sehingga tampilan lebih konsisten*/
 
 h1,h2, .skill-list {
-	font-family: 'Prata', serif;
+	font-family: 'Amu';
 }/*Mengatur font untuk elemen h1, h2, dan kelas skill-list Inknut Antiqua*/
 
 img{
